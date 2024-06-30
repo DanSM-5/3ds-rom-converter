@@ -1,0 +1,34 @@
+BasicInfo:
+  Title                   : "00000000" # 0x0 exheader.bin
+  CompanyCode             : "00" # 0x1110 game.3ds
+  ProductCode             : "000-0-0000" # 0x1150 game.3ds
+  ContentType             : Application
+  Logo                    : Nintendo
+  
+TitleInfo:
+  UniqueId                : 0x00000000 # 0x1108 game.3ds in little endian
+  Category                : Application
+
+CardInfo:
+  MediaType               : Card1 # Card1 / Card2
+
+Option:
+  UseOnSD                 : true 
+  FreeProductCode         : true # Removes limitations on ProductCode
+  EnableCrypt             : false # Enables encryption for NCCH and CIA
+  MediaFootPadding        : true # If true CCI files are created with padding
+  EnableCompress          : false # Compresses exefs code
+  
+AccessControlInfo:
+  ExtSaveDataId: 0x00000000 # same as UniqueId
+  SystemSaveDataId1: 0x00000000 # plaintext exheader
+  SystemSaveDataId2: 0x00000000 # plaintext exheader
+  OtherUserSaveDataId1: 0x00000 # plaintext exheader
+  OtherUserSaveDataId2: 0x00000 # plaintext exheader
+  OtherUserSaveDataId3: 0x00000 # plaintext exheader
+  UseOtherVariationSaveData : false
+  
+SystemControlInfo:
+  SaveDataSize: 1M # plaintext exheader / 0x1C0 exheader.bin
+  RemasterVersion: 0000 # 0xE exheader.bin
+  StackSize: 0x00000000 # 0x1C exheader.bin

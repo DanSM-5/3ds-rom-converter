@@ -1,0 +1,34 @@
+07-Dec-23 17:37:20.90 
+
+Parsing CIA in file "The Legend of Zelda TriForce Heroes USA Update.cia":
+  Parsing NCCH 0
+    Product code: CTR-U-EA3E
+    KeyY: 1EB74BE4A8293D68254C3007C97BB532
+    Title ID: 0004000E00176F00
+    Format version: 2
+    Uses Extra NCCH crypto, keyslot 0x25
+
+    ExHeader offset:  00000200
+    ExHeader counter: 0004000e00176f000100000000000000
+    ExHeader size: 2048 bytes
+    ExeFS offset:  00002E00
+    ExeFS counter: 0004000e00176f000200000000000000
+    ExeFS size: 6662656 bytes
+    RomFS offset:  0065E000
+    RomFS counter: 0004000e00176f000300000000000000
+    RomFS size: 111443968 bytes
+
+  Parsing NCCH 2
+    Product code: CTR-P-CTAP
+    KeyY: D05DCCC11961F28F44F34E085BBDED15
+    Title ID: 000400000FF3FF00
+    Format version: 0
+
+    RomFS offset:  00001000
+    RomFS counter: 000400000ff3ff000300000000000000
+    RomFS size: 25141248 bytes
+
+
+Done!
+[TIK WARNING] Failed to sign header
+[TMD WARNING] Failed to sign header
